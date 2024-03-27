@@ -13,10 +13,10 @@ SECRET_KEY = "django-insecure-$q#!s4qn3!5!m*5*9_$ddux4a@t)p7a0p@-5=q#%(0_ch-lkbe
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [".awsapprunner.com"]
+ALLOWED_HOSTS = [".awsapprunner.com" ]
 
 CORS_ALLOW_ALL_ORIGINS = True
-CSRF_TRUSTED_ORIGINS = ["https://wemzwtqqzg.us-east-1.awsapprunner.com/"]
+CSRF_TRUSTED_ORIGINS = ["https://wemzwtqqzg.us-east-1.awsapprunner.com"]
 
 
 # Application definition
