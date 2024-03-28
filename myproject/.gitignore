@@ -1,8 +1,10 @@
 *.log
 *.pot
 *.pyc
+.env
 __pycache__
 db.sqlite3
 media
 staticfiles
 *_old.txt
+aws-runner

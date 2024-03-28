@@ -9,3 +9,6 @@ run:
   command: sh startup.sh
   network:
     port: 8000
+  secrets:
+    - name: DATABASE_SECRET
+      value: "arn:aws:secretsmanager:us-east-1:654654319320:secret:django_app_runner_secret-UFhhsR"
